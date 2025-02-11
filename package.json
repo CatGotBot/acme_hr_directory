@@ -1,0 +1,26 @@
+{
+  "name": "acme_hr_directory",
+  "version": "1.0.0",
+  "description": "\"Block 33: THe Acme HR Database\"",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatGotBot/acme_hr_directory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CatGotBot/acme_hr_directory/issues"
+  },
+  "homepage": "https://github.com/CatGotBot/acme_hr_directory#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
